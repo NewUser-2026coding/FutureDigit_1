@@ -143,7 +143,7 @@ function MobileDropdown({ item, onNavigate, scrolled }: { item: NavDropdown; onN
     <div>
       <button
         onClick={() => setOpen(!open)}
-        className={`flex w-full items-center justify-between text-sm font-medium font-serif transition-colors ${scrolled ? "text-foreground hover:text-primary" : "text-white hover:text-primary"}`}
+        className="flex w-full items-center justify-between text-sm font-medium font-serif text-foreground hover:text-primary transition-colors"
       >
         {item.name}
         <ChevronDown
@@ -235,7 +235,7 @@ export default function Navbar() {
 
           <button
             onClick={() => setOpen(!open)}
-            className="lg:hidden p-2 text-foreground"
+            className={`lg:hidden p-2 transition-colors ${scrolled ? "text-foreground" : "text-white"}`}
             aria-label={open ? "Fermer le menu" : "Ouvrir le menu"}
           >
             {open ? <X className="size-6" /> : <Menu className="size-6" />}
