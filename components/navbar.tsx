@@ -100,7 +100,7 @@ function DesktopDropdown({ item }: { item: NavDropdown }) {
 
   return (
     <div className="relative" onMouseEnter={handleEnter} onMouseLeave={handleLeave}>
-      <button className="flex items-center gap-1 text-sm font-medium text-muted-foreground hover:text-primary transition-colors duration-200">
+      <button className="flex items-center gap-1 text-sm font-medium text-foreground hover:text-primary transition-colors duration-200">
         {item.name}
         <ChevronDown
           className={`size-3.5 transition-transform duration-200 ${open ? "rotate-180" : ""}`}
@@ -143,7 +143,7 @@ function MobileDropdown({ item, onNavigate }: { item: NavDropdown; onNavigate: (
     <div>
       <button
         onClick={() => setOpen(!open)}
-        className="flex w-full items-center justify-between text-base font-medium text-muted-foreground hover:text-primary transition-colors"
+        className="flex w-full items-center justify-between text-sm font-medium text-foreground hover:text-primary transition-colors"
       >
         {item.name}
         <ChevronDown
