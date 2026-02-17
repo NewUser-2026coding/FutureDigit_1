@@ -85,7 +85,7 @@ const navItems: NavItem[] = [
   },
 ]
 
-function DesktopDropdown({ item }: { item: NavDropdown }) {
+function DesktopDropdown({ item, scrolled }: { item: NavDropdown; scrolled: boolean }) {
   const [open, setOpen] = useState(false)
   const timeoutRef = useRef<NodeJS.Timeout | null>(null)
 
@@ -100,7 +100,7 @@ function DesktopDropdown({ item }: { item: NavDropdown }) {
 
   return (
     <div className="relative" onMouseEnter={handleEnter} onMouseLeave={handleLeave}>
-      <button className="flex items-center gap-1 text-sm font-medium text-muted-foreground hover:text-primary transition-colors duration-200">
+      <button className={`flex items-center gap-1 text-sm font-medium font-serif transition-colors duration-200 ${scrolled ? "text-foreground hover:text-primary" : "text-white hover:text-primary"}`}>
         {item.name}
         <ChevronDown
           className={`size-3.5 transition-transform duration-200 ${open ? "rotate-180" : ""}`}
@@ -136,14 +136,14 @@ function DesktopDropdown({ item }: { item: NavDropdown }) {
   )
 }
 
-function MobileDropdown({ item, onNavigate }: { item: NavDropdown; onNavigate: () => void }) {
+function MobileDropdown({ item, onNavigate, scrolled }: { item: NavDropdown; onNavigate: () => void; scrolled: boolean }) {
   const [open, setOpen] = useState(false)
 
   return (
     <div>
       <button
         onClick={() => setOpen(!open)}
-        className="flex w-full items-center justify-between text-base font-medium text-muted-foreground hover:text-primary transition-colors"
+        className="flex w-full items-center justify-between text-sm font-medium font-serif text-foreground hover:text-primary transition-colors"
       >
         {item.name}
         <ChevronDown
@@ -211,7 +211,7 @@ export default function Navbar() {
           <div className="hidden lg:flex items-center gap-8">
             {navItems.map((item) =>
               isDropdown(item) ? (
-                <DesktopDropdown key={item.name} item={item} />
+                <DesktopDropdown key={item.name} item={item} scrolled={scrolled} />
               ) : (
                 <Link
                   key={item.name}
@@ -235,7 +235,7 @@ export default function Navbar() {
 
           <button
             onClick={() => setOpen(!open)}
-            className="lg:hidden p-2 text-foreground"
+            className={`lg:hidden p-2 transition-colors ${scrolled ? "text-foreground" : "text-white"}`}
             aria-label={open ? "Fermer le menu" : "Ouvrir le menu"}
           >
             {open ? <X className="size-6" /> : <Menu className="size-6" />}
@@ -253,7 +253,7 @@ export default function Navbar() {
               <div className="flex flex-col gap-4 px-6 py-6 bg-card/95 backdrop-blur-xl rounded-b-2xl">
                 {navItems.map((item) =>
                   isDropdown(item) ? (
-                    <MobileDropdown key={item.name} item={item} onNavigate={() => setOpen(false)} />
+                    <MobileDropdown key={item.name} item={item} onNavigate={() => setOpen(false)} scrolled={scrolled} />
                   ) : (
                     <Link
                       key={item.name}
