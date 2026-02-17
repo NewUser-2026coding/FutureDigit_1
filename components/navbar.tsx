@@ -100,7 +100,7 @@ function DesktopDropdown({ item, scrolled }: { item: NavDropdown; scrolled: bool
 
   return (
     <div className="relative" onMouseEnter={handleEnter} onMouseLeave={handleLeave}>
-      <button className={`flex items-center gap-1 text-sm font-medium transition-colors duration-200 ${scrolled ? "text-foreground hover:text-primary" : "text-white hover:text-primary"}`}>
+      <button className={`flex items-center gap-1 text-sm font-medium font-serif transition-colors duration-200 ${scrolled ? "text-foreground hover:text-primary" : "text-white hover:text-primary"}`}>
         {item.name}
         <ChevronDown
           className={`size-3.5 transition-transform duration-200 ${open ? "rotate-180" : ""}`}
@@ -143,7 +143,7 @@ function MobileDropdown({ item, onNavigate, scrolled }: { item: NavDropdown; onN
     <div>
       <button
         onClick={() => setOpen(!open)}
-        className={`flex w-full items-center justify-between text-sm font-medium transition-colors ${scrolled ? "text-foreground hover:text-primary" : "text-white hover:text-primary"}`}
+        className={`flex w-full items-center justify-between text-sm font-medium font-serif transition-colors ${scrolled ? "text-foreground hover:text-primary" : "text-white hover:text-primary"}`}
       >
         {item.name}
         <ChevronDown
