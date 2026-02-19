@@ -40,7 +40,7 @@ export default function Contact() {
             Contactez-nous
           </h2>
           <p className="mt-4 mx-auto max-w-2xl text-lg text-muted-foreground leading-relaxed">
-            Discutons de votre projet et decouvrez comment nous pouvons vous accompagner.
+            Discutons de votre projet et découvrez comment nous pouvons vous accompagner.
           </p>
         </motion.div>
 

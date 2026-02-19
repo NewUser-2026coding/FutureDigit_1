@@ -24,7 +24,7 @@ export default function About() {
             
             <div className="relative aspect-[4/3] overflow-hidden rounded-2xl shadow-2xl">
               <img
-                src="/pexels-fauxels-3184433.jpg"
+                src="/mode-consulting.webp"
                 alt="Équipe Future Digit en réunion"
                 className="w-full h-full object-cover"
               />

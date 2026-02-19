@@ -6,8 +6,8 @@ const _montserrat = Montserrat({ subsets: ['latin'], variable: '--font-montserra
 const _openSans = Open_Sans({ subsets: ['latin'], variable: '--font-open-sans' })
 
 export const metadata: Metadata = {
-  title: 'Future Digit - Conseil & Regie IT | Ingenierie & Banque-Finance',
-  description: 'Future Digit accompagne les entreprises dans leur transformation numerique. Conseil, Regie IT, Ingenierie et Banque-Finance.',
+  title: 'Future Digit - Conseil & Régie IT | Ingénierie & Banque-Finance',
+  description: 'Future Digit accompagne les entreprises dans leur transformation numérique. Conseil, Régie IT, Ingénierie et Banque-Finance.',
 }
 
 export const viewport: Viewport = {

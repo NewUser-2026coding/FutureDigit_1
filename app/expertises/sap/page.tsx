@@ -12,7 +12,7 @@ import Link from "next/link"
 const services = [
   { icon: Database, title: "Implementation SAP", description: "Deploiement et configuration de solutions SAP adaptees a votre organisation." },
   { icon: GitMerge, title: "Integration", description: "Connexion de SAP avec vos systemes existants pour un ecosysteme unifie." },
-  { icon: ArrowUpCircle, title: "Migration S/4HANA", description: "Transition vers la nouvelle generation SAP avec une methodologie eprouvee." },
+  { icon: ArrowUpCircle, title: "Migration S/4HANA", description: "Transition vers la nouvelle génération SAP avec une méthodologie éprouvée." },
   { icon: Headphones, title: "Support & Maintenance", description: "Assistance technique continue et evolution de vos solutions SAP." },
 ]
 
@@ -26,12 +26,12 @@ const modules = [
 ]
 
 const reasons = [
-  "Consultants certifies SAP avec expertise multi-modules",
-  "Methodologie d'implementation eprouvee et structuree",
-  "Accompagnement de bout en bout : cadrage, realisation, formation",
-  "Support post-projet et maintenance evolutive",
-  "Formation utilisateurs et transfert de competences",
-  "Respect des best practices SAP et standards qualite",
+  "Consultants certifiés SAP avec expertise multi-modules",
+  "Méthodologie d'implémentation éprouvée et structurée",
+  "Accompagnement de bout en bout : cadrage, réalisation, formation",
+  "Support post-projet et maintenance évolutive",
+  "Formation utilisateurs et transfert de compétences",
+  "Respect des best practices SAP et standards qualité",
 ]
 
 export default function SAPPage() {
@@ -55,12 +55,12 @@ export default function SAPPage() {
               <motion.div initial={{ opacity: 0, x: 30 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} transition={{ duration: 0.7 }} className="lg:order-2">
                 <span className="text-sm font-semibold uppercase tracking-widest text-primary">Notre Expertise</span>
                 <h2 className="mt-3 font-serif text-3xl font-bold text-foreground sm:text-4xl text-balance">{"L'ERP au coeur de votre transformation"}</h2>
-                <p className="mt-6 text-muted-foreground leading-relaxed">{"Notre equipe de consultants SAP maitrise l'ensemble des modules fonctionnels et techniques. De la phase de cadrage a la mise en production, nous deployons une methodologie rigoureuse pour garantir le succes de vos projets SAP."}</p>
+                <p className="mt-6 text-muted-foreground leading-relaxed">{"Notre équipe de consultants SAP maîtrise l'ensemble des modules fonctionnels et techniques. De la phase de cadrage à la mise en production, nous déployons une méthodologie rigoureuse pour garantir le succès de vos projets SAP."}</p>
                 <div className="mt-8 grid grid-cols-2 gap-4">
                   {[
                     { value: "80+", label: "Consultants SAP" },
                     { value: "100+", label: "Projets SAP livres" },
-                    { value: "6", label: "Modules maitrises" },
+                    { value: "6", label: "Modules maîtrisés" },
                     { value: "15+", label: "Ans d'expertise" },
                   ].map((stat, idx) => (
                     <motion.div key={stat.label} initial={{ opacity: 0, y: 15 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.4, delay: 0.2 + idx * 0.1 }} className="rounded-xl border border-border bg-secondary/30 p-4">
@@ -74,7 +74,7 @@ export default function SAPPage() {
               <motion.div initial={{ opacity: 0, x: -30 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} transition={{ duration: 0.7 }} className="relative lg:order-1">
                 <div className="absolute -inset-4 bg-gradient-to-br from-primary/15 to-accent/10 rounded-3xl blur-2xl" />
                 <div className="relative aspect-[4/3] overflow-hidden rounded-2xl shadow-2xl">
-                  <img src="/sap1.jpg" alt="Consultants SAP en session de travail" className="w-full h-full object-cover" />
+                  <img src="/sap1.webp" alt="Consultants SAP en session de travail" className="w-full h-full object-cover" />
                   <div className="absolute inset-0 bg-gradient-to-t from-foreground/20 to-transparent" />
                 </div>
               </motion.div>
@@ -148,7 +148,7 @@ export default function SAPPage() {
               <motion.div initial={{ opacity: 0, x: 30 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} transition={{ duration: 0.7 }} className="relative">
                 <div className="absolute -inset-4 bg-gradient-to-tl from-accent/10 to-primary/10 rounded-3xl blur-2xl" />
                 <div className="relative aspect-[4/3] overflow-hidden rounded-2xl shadow-2xl">
-                  <img src="/team.jpg" alt="Equipe SAP en consultation" className="w-full h-full object-cover" />
+                  <img src="/sap2.webp" alt="Équipe SAP en consultation" className="w-full h-full object-cover" />
                 </div>
               </motion.div>
             </div>

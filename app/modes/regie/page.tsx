@@ -64,7 +64,7 @@ const engagements = [
   },
   {
     title: "Qualite",
-    description: "Des consultants formes et certifies, evalues sur leurs competences techniques et soft skills.",
+    description: "Des consultants formés et certifiés, évalués sur leurs compétences techniques et soft skills.",
   },
   {
     title: "Engagement",
@@ -157,7 +157,7 @@ export default function RegiePage() {
               Nos Profils
             </span>
             <h2 className="mt-3 font-serif text-3xl font-bold text-foreground sm:text-4xl lg:text-5xl text-balance">
-              Un large eventail de competences
+              Un large éventail de compétences
             </h2>
             <p className="mt-4 mx-auto max-w-2xl text-lg text-muted-foreground leading-relaxed">
               Pour repondre a tous vos besoins IT
@@ -240,7 +240,7 @@ export default function RegiePage() {
               </div>
               <h3 className="mt-5 font-serif text-2xl font-bold text-foreground">Un Partenariat Gagnant</h3>
               <p className="mt-3 text-muted-foreground leading-relaxed">
-                Notre approche regie va au-dela de la simple mise a disposition de ressources. Nous construisons un veritable partenariat pour garantir la reussite de vos projets.
+                Notre approche régie va au-delà de la simple mise à disposition de ressources. Nous construisons un véritable partenariat pour garantir la réussite de vos projets.
               </p>
               <ul className="mt-6 flex flex-col gap-3">
                 {partnershipPoints.map((item) => (
@@ -253,7 +253,7 @@ export default function RegiePage() {
             </div>
             <div className="relative aspect-[4/3] overflow-hidden rounded-2xl">
               <img
-                src="/mode-regie.jpg"
+                src="/mode-regie.webp"
                 alt="Equipe de consultants IT en immersion"
                 className="w-full h-full object-cover"
               />
@@ -273,10 +273,10 @@ export default function RegiePage() {
             className="text-center mb-16"
           >
             <h2 className="font-serif text-3xl font-bold text-foreground sm:text-4xl text-balance">
-              Pourquoi choisir la regie ?
+              Pourquoi choisir la régie ?
             </h2>
             <p className="mt-4 mx-auto max-w-2xl text-lg text-muted-foreground leading-relaxed">
-              La regie vous offre flexibilite et acces immediat a des competences pointues pour repondre a vos besoins ponctuels ou recurrents.
+              La régie vous offre flexibilité et accès immédiat à des compétences pointues pour répondre à vos besoins ponctuels ou récurrents.
             </p>
           </motion.div>
 

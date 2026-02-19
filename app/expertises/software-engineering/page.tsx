@@ -12,8 +12,8 @@ import Link from "next/link"
 const services = [
   {
     icon: Code2,
-    title: "Developpement sur mesure",
-    description: "Applications web et mobiles adaptees a vos besoins specifiques avec les dernieres technologies.",
+    title: "Développement sur mesure",
+    description: "Applications web et mobiles adaptées à vos besoins spécifiques avec les dernières technologies.",
   },
   {
     icon: Palette,
@@ -40,7 +40,7 @@ const techStack = [
 ]
 
 const reasons = [
-  "Equipes seniors certifiees avec +8 ans d'experience moyenne",
+  "Équipes seniors certifiées avec +8 ans d'expérience moyenne",
   "Methodologies agiles : Scrum, Kanban, SAFe",
   "Code de haute qualite avec tests automatises",
   "Support continu et maintenance evolutive",
@@ -78,8 +78,8 @@ export default function SoftwareEngineeringPage() {
                 <div className="absolute -inset-4 bg-gradient-to-br from-primary/15 to-accent/10 rounded-3xl blur-2xl" />
                 <div className="relative aspect-[4/3] overflow-hidden rounded-2xl shadow-2xl">
                   <img
-                    src="/swe1.jpg"
-                    alt="Equipe de developpeurs travaillant ensemble"
+                    src="/swe1.webp"
+                    alt="Équipe de développeurs travaillant ensemble"
                     className="w-full h-full object-cover"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-foreground/30 to-transparent" />
@@ -93,7 +93,7 @@ export default function SoftwareEngineeringPage() {
                   className="absolute -bottom-6 -right-4 lg:-right-8 rounded-xl bg-card/90 backdrop-blur-xl p-5 shadow-2xl border border-primary/20"
                 >
                   <p className="font-serif text-3xl font-bold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">500+</p>
-                  <p className="text-sm text-muted-foreground">Projets livres</p>
+                  <p className="text-sm text-muted-foreground">Projets livrés</p>
                 </motion.div>
               </motion.div>
 
@@ -110,7 +110,7 @@ export default function SoftwareEngineeringPage() {
                   Du concept au deploiement
                 </h2>
                 <p className="mt-6 text-muted-foreground leading-relaxed">
-                  {"Notre equipe d'ingenieurs logiciels transforme vos idees en produits concrets. Nous adoptons une demarche agile et iterative pour garantir une livraison rapide et de qualite, en utilisant les technologies les plus adaptees a vos besoins."}
+                  {"Notre équipe d'ingénieurs logiciels transforme vos idées en produits concrets. Nous adoptons une démarche agile et itérative pour garantir une livraison rapide et de qualité, en utilisant les technologies les plus adaptées à vos besoins."}
                 </p>
                 <div className="mt-8 grid grid-cols-2 gap-4">
                   {[
@@ -269,8 +269,8 @@ export default function SoftwareEngineeringPage() {
                 <div className="absolute -inset-4 bg-gradient-to-tl from-accent/10 to-primary/10 rounded-3xl blur-2xl" />
                 <div className="relative aspect-[4/3] overflow-hidden rounded-2xl shadow-2xl">
                   <img
-                    src="/team.jpg"
-                    alt="Equipe de consultants en strategie"
+                    src="/swe2.webp"
+                    alt="Équipe de consultants en stratégie"
                     className="w-full h-full object-cover"
                   />
                 </div>

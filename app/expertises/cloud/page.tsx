@@ -12,14 +12,14 @@ import Link from "next/link"
 const services = [
   { icon: Cloud, title: "Migration Cloud", description: "Transition fluide de vos applications vers le cloud avec une strategie adaptee a votre contexte." },
   { icon: Boxes, title: "Architecture Cloud", description: "Conception d'infrastructures cloud natives, optimisees pour la performance et les couts." },
-  { icon: Shield, title: "Securite Cloud", description: "Protection avancee de vos donnees et applications avec des solutions Zero Trust." },
-  { icon: TrendingUp, title: "Optimisation FinOps", description: "Amelioration continue des performances et maitrise des couts cloud." },
+  { icon: Shield, title: "Securite Cloud", description: "Protection avancée de vos données et applications avec des solutions Zero Trust." },
+  { icon: TrendingUp, title: "Optimisation FinOps", description: "Amélioration continue des performances et maîtrise des coûts cloud." },
 ]
 
 const providers = [
   { name: "AWS", desc: "Amazon Web Services - Leader mondial du cloud", color: "from-[#FF9900]/20 to-[#FF9900]/5" },
   { name: "Azure", desc: "Microsoft Azure - Integration entreprise native", color: "from-[#0078D4]/20 to-[#0078D4]/5" },
-  { name: "GCP", desc: "Google Cloud Platform - Data et IA avancees", color: "from-[#4285F4]/20 to-[#4285F4]/5" },
+  { name: "GCP", desc: "Google Cloud Platform - Data et IA avancées", color: "from-[#4285F4]/20 to-[#4285F4]/5" },
 ]
 
 const reasons = [
@@ -52,7 +52,7 @@ export default function CloudPage() {
               <motion.div initial={{ opacity: 0, x: -30 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} transition={{ duration: 0.7 }} className="relative">
                 <div className="absolute -inset-4 bg-gradient-to-br from-primary/15 to-accent/10 rounded-3xl blur-2xl" />
                 <div className="relative aspect-[4/3] overflow-hidden rounded-2xl shadow-2xl">
-                  <img src="/cloud1.jpg" alt="Infrastructure cloud et data center" className="w-full h-full object-cover" />
+                  <img src="/cloud1.webp" alt="Infrastructure cloud et data center" className="w-full h-full object-cover" />
                   <div className="absolute inset-0 bg-gradient-to-t from-foreground/20 to-transparent" />
                 </div>
                 <motion.div initial={{ opacity: 0, scale: 0.8 }} whileInView={{ opacity: 1, scale: 1 }} viewport={{ once: true }} transition={{ duration: 0.5, delay: 0.4 }} className="absolute -bottom-6 -right-4 lg:-right-8 rounded-xl bg-card/90 backdrop-blur-xl p-5 shadow-2xl border border-primary/20">
@@ -110,7 +110,7 @@ export default function CloudPage() {
           <div className="mx-auto max-w-7xl px-6 lg:px-8">
             <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6 }} className="text-center mb-16">
               <span className="text-sm font-semibold uppercase tracking-widest text-primary">Multi-Cloud</span>
-              <h2 className="mt-3 font-serif text-3xl font-bold text-foreground sm:text-4xl text-balance">Expertise multi-cloud certifiee</h2>
+              <h2 className="mt-3 font-serif text-3xl font-bold text-foreground sm:text-4xl text-balance">Expertise multi-cloud certifiée</h2>
             </motion.div>
             <div className="grid gap-8 lg:grid-cols-3">
               {providers.map((provider, index) => (
@@ -146,7 +146,7 @@ export default function CloudPage() {
               <motion.div initial={{ opacity: 0, x: 30 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} transition={{ duration: 0.7 }} className="relative">
                 <div className="absolute -inset-4 bg-gradient-to-tl from-accent/10 to-primary/10 rounded-3xl blur-2xl" />
                 <div className="relative aspect-[4/3] overflow-hidden rounded-2xl shadow-2xl">
-                  <img src="/team.jpg" alt="Equipe cloud certifiee" className="w-full h-full object-cover" />
+                  <img src="/cloud2.webp" alt="Équipe cloud certifiée" className="w-full h-full object-cover" />
                 </div>
               </motion.div>
             </div>

@@ -44,7 +44,7 @@ const navItems: NavItem[] = [
       {
         name: "Software Engineering",
         href: "/expertises/software-engineering",
-        description: "Developpement et architecture logicielle",
+        description: "Développement et architecture logicielle",
       },
       {
         name: "Infrastructure & DevOps",

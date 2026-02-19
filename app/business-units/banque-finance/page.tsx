@@ -9,24 +9,24 @@ import { motion } from "motion/react"
 import { Landmark, PiggyBank, CreditCard, Smartphone, ShieldCheck, Umbrella, Server, Code2, Users, CheckCircle2 } from "lucide-react"
 
 const domains = [
-  { icon: Landmark, title: "Banque de Financement et d'Investissement", bullets: ["Optimisation des processus Front-to-Back", "Integration des solutions RegTech et conformite", "Transformation digitale des operations de marche", "Modernisation des systemes de trading et gestion des risques"] },
-  { icon: PiggyBank, title: "Gestion d'Actifs", bullets: ["Automatisation des operations Middle et Back Office", "Integration des outils d'analyse quantitative", "Solutions de reporting et conformite reglementaire", "Optimisation des processus de gestion de portefeuilles"] },
-  { icon: CreditCard, title: "Banque de Detail", bullets: ["Experience client et fidelisation digitale", "Solutions de credit et de scoring automatise", "Digitalisation des services bancaires", "Transformation des parcours clients omnicanaux"] },
-  { icon: Smartphone, title: "Banque Directe", bullets: ["Integration des services de paiement instantane", "Parcours d'onboarding client simplifie", "Applications mobiles et web banking innovantes", "Conception de solutions bancaires 100% digitales"] },
+  { icon: Landmark, title: "Banque de Financement et d'Investissement", bullets: ["Optimisation des processus Front-to-Back", "Intégration des solutions RegTech et conformité", "Transformation digitale des opérations de marché", "Modernisation des systèmes de trading et gestion des risques"] },
+  { icon: PiggyBank, title: "Gestion d'Actifs", bullets: ["Automatisation des opérations Middle et Back Office", "Intégration des outils d'analyse quantitative", "Solutions de reporting et conformité réglementaire", "Optimisation des processus de gestion de portefeuilles"] },
+  { icon: CreditCard, title: "Banque de Détail", bullets: ["Expérience client et fidélisation digitale", "Solutions de crédit et de scoring automatisé", "Digitalisation des services bancaires", "Transformation des parcours clients omnicanaux"] },
+  { icon: Smartphone, title: "Banque Directe", bullets: ["Intégration des services de paiement instantané", "Parcours d'onboarding client simplifié", "Applications mobiles et web banking innovantes", "Conception de solutions bancaires 100% digitales"] },
   { icon: ShieldCheck, title: "Banque Privee", bullets: ["Conformite et gestion des risques clients", "Reporting client et tableaux de bord", "Solutions de conseil financier augmente", "Outils de gestion de patrimoine personnalises"] },
-  { icon: Umbrella, title: "Assurances", bullets: ["Conformite Solvabilite II et reporting reglementaire", "Solutions de tarification et souscription en ligne", "Gestion des sinistres et indemnisation digitale", "Transformation numerique des processus metier"] },
+  { icon: Umbrella, title: "Assurances", bullets: ["Conformité Solvabilité II et reporting réglementaire", "Solutions de tarification et souscription en ligne", "Gestion des sinistres et indemnisation digitale", "Transformation numérique des processus métier"] },
 ]
 
 const services = [
-  { icon: Server, title: "Gestion des Infrastructures / Production / DevSecOps", description: "Notre equipe d'experts infrastructure accompagne les etablissements financiers dans la gestion, la securisation et l'automatisation de leurs environnements de production critiques.", tags: ["Infrastructure as Code", "CI/CD securise", "Monitoring avance", "Cloud hybride", "Securite Zero Trust"] },
-  { icon: Code2, title: "MOE : Developpement et Suivi de Projets Applicatifs", description: "Nos equipes de developpement interviennent sur l'ensemble du cycle de vie des applications metier, de la conception a la maintenance evolutive.", tags: ["Architectures modernes", "APIs et microservices", "Applications temps reel", "Migration legacy", "Tests automatises"] },
-  { icon: Users, title: "MOA et Expertise Metier", description: "Nos consultants fonctionnels apportent leur expertise metier pour cadrer vos projets et assurer l'adequation entre les besoins utilisateurs et les solutions deployees.", tags: ["Analyse fonctionnelle", "Gestion de projet", "Conduite du changement", "Formation utilisateurs", "Support metier"] },
+  { icon: Server, title: "Gestion des Infrastructures / Production / DevSecOps", description: "Notre équipe d'experts infrastructure accompagne les établissements financiers dans la gestion, la sécurisation et l'automatisation de leurs environnements de production critiques.", tags: ["Infrastructure as Code", "CI/CD sécurisé", "Monitoring avancé", "Cloud hybride", "Sécurité Zero Trust"] },
+  { icon: Code2, title: "MOE : Développement et Suivi de Projets Applicatifs", description: "Nos équipes de développement interviennent sur l'ensemble du cycle de vie des applications métier, de la conception à la maintenance évolutive.", tags: ["Architectures modernes", "APIs et microservices", "Applications temps reel", "Migration legacy", "Tests automatises"] },
+  { icon: Users, title: "MOA et Expertise Métier", description: "Nos consultants fonctionnels apportent leur expertise métier pour cadrer vos projets et assurer l'adéquation entre les besoins utilisateurs et les solutions déployées.", tags: ["Analyse fonctionnelle", "Gestion de projet", "Conduite du changement", "Formation utilisateurs", "Support métier"] },
 ]
 
 const stats = [
   { value: "80+", label: "Consultants financiers" },
   { value: "200+", label: "Projets bancaires" },
-  { value: "15+", label: "Annees d'experience" },
+  { value: "15+", label: "Années d'expérience" },
   { value: "100%", label: "Clients satisfaits" },
 ]
 
@@ -41,7 +41,7 @@ export default function BanqueFinancePage() {
         description="Notre pole Banque-Finance accompagne tous les acteurs du secteur financier dans leur transformation digitale et leurs projets technologiques critiques."
         ctaLabel="Parlons de votre projet"
         ctaHref="#contact"
-        secondaryLabel="Explorer nos competences"
+        secondaryLabel="Explorer nos compétences"
         secondaryHref="#domaines"
       />
 
@@ -55,7 +55,7 @@ export default function BanqueFinancePage() {
             <motion.div initial={{ opacity: 0, x: -30 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} transition={{ duration: 0.7 }} className="relative">
               <div className="absolute -inset-4 bg-gradient-to-br from-primary/15 to-accent/10 rounded-3xl blur-2xl" />
               <div className="relative aspect-[4/3] overflow-hidden rounded-2xl shadow-2xl">
-                <img src="/bu-finance2.jpg" alt="Salle de trading et operations financieres" className="w-full h-full object-cover" />
+                <img src="/bu-finance2.webp" alt="Salle de trading et opérations financières" className="w-full h-full object-cover" />
                 <div className="absolute inset-0 bg-gradient-to-t from-foreground/30 to-transparent" />
               </div>
               <motion.div initial={{ opacity: 0, scale: 0.8 }} whileInView={{ opacity: 1, scale: 1 }} viewport={{ once: true }} transition={{ duration: 0.5, delay: 0.4 }} className="absolute -bottom-6 -right-4 lg:-right-8 rounded-xl bg-card/90 backdrop-blur-xl p-5 shadow-2xl border border-primary/20">
@@ -67,10 +67,10 @@ export default function BanqueFinancePage() {
             <motion.div initial={{ opacity: 0, x: 30 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} transition={{ duration: 0.7 }}>
               <span className="text-sm font-semibold uppercase tracking-widest text-primary">Notre Expertise</span>
               <h2 className="mt-3 font-serif text-3xl font-bold text-foreground sm:text-4xl text-balance">
-                Au coeur de la finance digitale
+                Au cœur de la finance digitale
               </h2>
               <p className="mt-6 text-muted-foreground leading-relaxed">
-                {"Nos consultants sont des professionnels experimentes de la Finance, appliquee au secteur bancaire et a la finance de marche. Ils interviennent sur un perimetre large, des sujets comptables jusqu'au controle de gestion."}
+                {"Nos consultants sont des professionnels expérimentés de la Finance, appliquée au secteur bancaire et à la finance de marché. Ils interviennent sur un périmètre large, des sujets comptables jusqu'au contrôle de gestion."}
               </p>
               <div className="mt-8 grid grid-cols-2 gap-4">
                 {stats.map((stat, idx) => (
@@ -93,7 +93,7 @@ export default function BanqueFinancePage() {
         <div className="relative mx-auto max-w-7xl px-6 lg:px-8">
           <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6 }} className="text-center mb-16">
             <span className="text-sm font-semibold uppercase tracking-widest text-primary">Nos Domaines d{"'"}Intervention</span>
-            <h2 className="mt-3 font-serif text-3xl font-bold text-foreground sm:text-4xl lg:text-5xl text-balance">Expertise financiere sectorielle</h2>
+            <h2 className="mt-3 font-serif text-3xl font-bold text-foreground sm:text-4xl lg:text-5xl text-balance">Expertise financière sectorielle</h2>
           </motion.div>
 
           <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
@@ -124,7 +124,7 @@ export default function BanqueFinancePage() {
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6 }} className="text-center mb-16">
             <span className="text-sm font-semibold uppercase tracking-widest text-primary">Notre Offre de Services</span>
-            <h2 className="mt-3 font-serif text-3xl font-bold text-foreground sm:text-4xl lg:text-5xl text-balance">Trois grands domaines de competences</h2>
+            <h2 className="mt-3 font-serif text-3xl font-bold text-foreground sm:text-4xl lg:text-5xl text-balance">Trois grands domaines de compétences</h2>
           </motion.div>
 
           <div className="flex flex-col gap-8">
@@ -158,10 +158,10 @@ export default function BanqueFinancePage() {
           <div className="grid items-center gap-12 lg:grid-cols-2 lg:gap-20">
             <motion.div initial={{ opacity: 0, x: -20 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} transition={{ duration: 0.6 }}>
               <span className="text-sm font-semibold uppercase tracking-widest text-primary">Notre Engagement</span>
-              <h2 className="mt-3 font-serif text-3xl font-bold text-foreground sm:text-4xl text-balance">{"L'excellence financiere au service de vos ambitions"}</h2>
-              <p className="mt-6 text-muted-foreground leading-relaxed">{"Notre equipe de consultants experimentes intervient aupres des plus grands etablissements financiers. De la strategie a l'implementation, nous mettons notre expertise sectorielle au service de votre performance."}</p>
+              <h2 className="mt-3 font-serif text-3xl font-bold text-foreground sm:text-4xl text-balance">{"L'excellence financière au service de vos ambitions"}</h2>
+              <p className="mt-6 text-muted-foreground leading-relaxed">{"Notre équipe de consultants expérimentés intervient auprès des plus grands établissements financiers. De la stratégie à l'implémentation, nous mettons notre expertise sectorielle au service de votre performance."}</p>
               <div className="mt-8 flex flex-col gap-3">
-                {["Expertise metier finance et bancaire approfondie", "Equipe dediee et scalable selon vos besoins", "Conformite reglementaire et gestion des risques", "Innovation continue et veille technologique"].map((item, idx) => (
+                {["Expertise métier finance et bancaire approfondie", "Équipe dédiée et scalable selon vos besoins", "Conformité réglementaire et gestion des risques", "Innovation continue et veille technologique"].map((item, idx) => (
                   <motion.div key={item} initial={{ opacity: 0, x: -15 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} transition={{ duration: 0.4, delay: idx * 0.08 }} className="flex items-start gap-3">
                     <CheckCircle2 className="mt-0.5 size-5 shrink-0 text-primary" />
                     <p className="text-muted-foreground">{item}</p>
@@ -172,7 +172,7 @@ export default function BanqueFinancePage() {
             <motion.div initial={{ opacity: 0, x: 30 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} transition={{ duration: 0.7 }} className="relative">
               <div className="absolute -inset-4 bg-gradient-to-tl from-accent/10 to-primary/10 rounded-3xl blur-2xl" />
               <div className="relative aspect-[4/3] overflow-hidden rounded-2xl shadow-2xl">
-                <img src="/bu-finance1.jpg" alt="Operations financieres et technologie bancaire" className="w-full h-full object-cover" />
+                <img src="/bu-finance1.webp" alt="Opérations financières et technologie bancaire" className="w-full h-full object-cover" />
               </div>
             </motion.div>
           </div>

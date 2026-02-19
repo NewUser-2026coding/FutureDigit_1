@@ -63,7 +63,7 @@ export default function InfraDevOpsPage() {
                   {"L'infrastructure au service de l'agilite"}
                 </h2>
                 <p className="mt-6 text-muted-foreground leading-relaxed">
-                  {"Nos experts DevOps transforment vos pratiques de developpement et d'operations. De l'automatisation CI/CD a l'observabilite avancee, nous construisons des plateformes fiables et performantes."}
+                  {"Nos experts DevOps transforment vos pratiques de développement et d'opérations. De l'automatisation CI/CD à l'observabilité avancée, nous construisons des plateformes fiables et performantes."}
                 </p>
                 <div className="mt-8 grid grid-cols-3 gap-4">
                   {[
@@ -95,7 +95,7 @@ export default function InfraDevOpsPage() {
               >
                 <div className="absolute -inset-4 bg-gradient-to-br from-primary/15 to-accent/10 rounded-3xl blur-2xl" />
                 <div className="relative aspect-[4/3] overflow-hidden rounded-2xl shadow-2xl">
-                  <img src="/devops1.jpg" alt="Infrastructure DevOps et salle serveur" className="w-full h-full object-cover" />
+                  <img src="/devops1.webp" alt="Infrastructure DevOps et salle serveur" className="w-full h-full object-cover" />
                   <div className="absolute inset-0 bg-gradient-to-t from-foreground/20 to-transparent" />
                 </div>
               </motion.div>
@@ -170,7 +170,7 @@ export default function InfraDevOpsPage() {
               <motion.div initial={{ opacity: 0, x: 30 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} transition={{ duration: 0.7 }} className="relative">
                 <div className="absolute -inset-4 bg-gradient-to-tl from-accent/10 to-primary/10 rounded-3xl blur-2xl" />
                 <div className="relative aspect-[4/3] overflow-hidden rounded-2xl shadow-2xl">
-                  <img src="/team.jpg" alt="Equipe de consultants DevOps" className="w-full h-full object-cover" />
+                  <img src="/devops2.webp" alt="Équipe de consultants DevOps" className="w-full h-full object-cover" />
                 </div>
               </motion.div>
             </div>

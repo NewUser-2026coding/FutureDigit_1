@@ -26,10 +26,10 @@ const methodologies = [
 
 const reasons = [
   "Chefs de projet certifies PMP, Prince2, Scrum Master",
-  "Approche Agile et methodologies adaptees a votre contexte",
+  "Approche Agile et méthodologies adaptées à votre contexte",
   "Gestion des risques proactive et anticipation",
   "Communication efficace et stakeholder management",
-  "Budget maitrise et controle rigoureux des couts",
+  "Budget maîtrisé et contrôle rigoureux des coûts",
   "Qualite garantie avec processus de validation stricts",
 ]
 
@@ -41,7 +41,7 @@ export default function GestionProjetPage() {
         <SubpageHero
           tag="Nos Expertises"
           title="Gestion de Projet"
-          description="Nos chefs de projet certifies pilotent vos initiatives IT avec rigueur et methodologie pour garantir le succes de vos projets."
+          description="Nos chefs de projet certifiés pilotent vos initiatives IT avec rigueur et méthodologie pour garantir le succès de vos projets."
           ctaLabel="Discutons de votre projet"
           ctaHref="#contact"
         />
@@ -54,7 +54,7 @@ export default function GestionProjetPage() {
               <motion.div initial={{ opacity: 0, x: -30 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} transition={{ duration: 0.7 }} className="relative">
                 <div className="absolute -inset-4 bg-gradient-to-br from-primary/15 to-accent/10 rounded-3xl blur-2xl" />
                 <div className="relative aspect-[4/3] overflow-hidden rounded-2xl shadow-2xl">
-                  <img src="/gestprojet1.jpg" alt="Equipe en session de planification agile" className="w-full h-full object-cover" />
+                  <img src="/gestprojet1.webp" alt="Équipe en session de planification agile" className="w-full h-full object-cover" />
                   <div className="absolute inset-0 bg-gradient-to-t from-foreground/20 to-transparent" />
                 </div>
                 <motion.div initial={{ opacity: 0, scale: 0.8 }} whileInView={{ opacity: 1, scale: 1 }} viewport={{ once: true }} transition={{ duration: 0.5, delay: 0.4 }} className="absolute -bottom-6 -right-4 lg:-right-8 rounded-xl bg-card/90 backdrop-blur-xl p-5 shadow-2xl border border-primary/20">
@@ -66,7 +66,7 @@ export default function GestionProjetPage() {
               <motion.div initial={{ opacity: 0, x: 30 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} transition={{ duration: 0.7 }}>
                 <span className="text-sm font-semibold uppercase tracking-widest text-primary">Notre Approche</span>
                 <h2 className="mt-3 font-serif text-3xl font-bold text-foreground sm:text-4xl text-balance">Le pilotage qui fait la difference</h2>
-                <p className="mt-6 text-muted-foreground leading-relaxed">{"Nos chefs de projet combinent expertise technique, competences manageriales et connaissance metier. Ils s'adaptent a votre contexte et deploient les methodologies les plus adaptees pour delivrer vos projets dans les temps et le budget."}</p>
+                <p className="mt-6 text-muted-foreground leading-relaxed">{"Nos chefs de projet combinent expertise technique, compétences managériales et connaissance métier. Ils s'adaptent à votre contexte et déploient les méthodologies les plus adaptées pour délivrer vos projets dans les temps et le budget."}</p>
                 <div className="mt-8 grid grid-cols-3 gap-4">
                   {[
                     { value: "300+", label: "Projets pilotes" },
@@ -148,7 +148,7 @@ export default function GestionProjetPage() {
               <motion.div initial={{ opacity: 0, x: 30 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} transition={{ duration: 0.7 }} className="relative">
                 <div className="absolute -inset-4 bg-gradient-to-tl from-accent/10 to-primary/10 rounded-3xl blur-2xl" />
                 <div className="relative aspect-[4/3] overflow-hidden rounded-2xl shadow-2xl">
-                  <img src="/team.jpg" alt="Equipe de gestion de projet" className="w-full h-full object-cover" />
+                  <img src="/gestprojet2.webp" alt="Équipe de gestion de projet" className="w-full h-full object-cover" />
                 </div>
               </motion.div>
             </div>

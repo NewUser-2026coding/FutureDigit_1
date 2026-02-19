@@ -15,18 +15,18 @@ const approach = [
   },
   {
     icon: Users,
-    title: "Equipe pluridisciplinaire",
-    description: "Constituez une equipe dediee avec les competences necessaires pour mener a bien votre projet.",
+    title: "Équipe pluridisciplinaire",
+    description: "Constituez une équipe dédiée avec les compétences nécessaires pour mener à bien votre projet.",
   },
   {
     icon: IterationCcw,
     title: "Iterations courtes",
-    description: "Nous maximisons la valeur par des cycles de developpement agiles et des livraisons incrementales.",
+    description: "Nous maximisons la valeur par des cycles de développement agiles et des livraisons incrémentales.",
   },
   {
     icon: Package,
     title: "Livraison au forfait",
-    description: "Engagement sur les resultats avec un budget maitrise et des delais definis.",
+    description: "Engagement sur les résultats avec un budget maîtrisé et des délais définis.",
   },
 ]
 
@@ -34,56 +34,56 @@ const process = [
   {
     step: 1,
     title: "Analyse des Besoins",
-    description: "Etude approfondie de vos objectifs metier et contraintes techniques pour definir le perimetre du projet.",
+    description: "Étude approfondie de vos objectifs métier et contraintes techniques pour définir le périmètre du projet.",
   },
   {
     step: 2,
     title: "Conception de la Solution",
-    description: "Architecture et design de la solution sur mesure repondant a vos enjeux specifiques.",
+    description: "Architecture et design de la solution sur mesure répondant à vos enjeux spécifiques.",
   },
   {
     step: 3,
-    title: "Realisation iterative",
-    description: "Developpement en sprints avec demos regulieres pour valider chaque increment fonctionnel.",
+    title: "Réalisation itérative",
+    description: "Développement en sprints avec démos régulières pour valider chaque incrément fonctionnel.",
   },
   {
     step: 4,
     title: "Livraison et Accompagnement",
-    description: "Mise en production, transfert de competences et support pour garantir le succes.",
+    description: "Mise en production, transfert de compétences et support pour garantir le succès.",
   },
 ]
 
 const projectTypes = [
   {
-    title: "Applications metier",
-    description: "Developpement d'applications sur mesure pour digitaliser vos processus et ameliorer votre efficacite operationnelle.",
+    title: "Applications métier",
+    description: "Développement d'applications sur mesure pour digitaliser vos processus et améliorer votre efficacité opérationnelle.",
   },
   {
     title: "Transformation digitale",
     description: "Accompagnement dans la modernisation de votre SI et l'adoption de nouvelles technologies.",
   },
   {
-    title: "Produits numeriques",
-    description: "Conception et realisation de produits digitaux innovants, de l'idee au lancement sur le marche.",
+    title: "Produits numériques",
+    description: "Conception et réalisation de produits digitaux innovants, de l'idée au lancement sur le marché.",
   },
   {
     title: "Integration de systemes",
-    description: "Interconnexion de vos applications et systemes pour fluidifier vos echanges de donnees.",
+    description: "Interconnexion de vos applications et systèmes pour fluidifier vos échanges de données.",
   },
 ]
 
 const forfaitAdvantages = [
   "Garantie de conformite aux specifications",
   "Planning de livraison garanti",
-  "Prix fixe sans depassement",
-  "Perimetre fonctionnel defini et valide",
+  "Prix fixe sans dépassement",
+  "Périmètre fonctionnel défini et validé",
 ]
 
 const whyForfait = [
-  "Budget maitrise et previsible",
-  "Delais de livraison garantis",
-  "Equipe dediee a votre projet",
-  "Methodologie agile eprouvee",
+  "Budget maîtrisé et prévisible",
+  "Délais de livraison garantis",
+  "Équipe dédiée à votre projet",
+  "Méthodologie agile éprouvée",
   "Transparence totale sur l'avancement",
   "Accompagnement de bout en bout",
 ]
@@ -96,7 +96,7 @@ export default function ConseilPage() {
       <SubpageHero
         tag="Mode d'Intervention"
         title="Conseil"
-        description="Concevoir vos solutions sur mesure de l'idee au projet. Constituez une equipe pluridisciplinaire dediee pour realiser un projet complet. Nous maximisons la valeur de vos projets et produits par des blocs d'iterations courtes en equipes pluridisciplinaires."
+        description="Concevoir vos solutions sur mesure de l'idée au projet. Constituez une équipe pluridisciplinaire dédiée pour réaliser un projet complet. Nous maximisons la valeur de vos projets et produits par des blocs d'itérations courtes en équipes pluridisciplinaires."
         ctaLabel="Discutons de votre projet"
         ctaHref="/#contact"
       />
@@ -115,10 +115,10 @@ export default function ConseilPage() {
               Notre Approche Conseil
             </span>
             <h2 className="mt-3 font-serif text-3xl font-bold text-foreground sm:text-4xl lg:text-5xl text-balance">
-              Une methodologie eprouvee
+              Une méthodologie éprouvée
             </h2>
             <p className="mt-4 mx-auto max-w-2xl text-lg text-muted-foreground leading-relaxed">
-              Pour transformer vos idees en solutions performantes
+              Pour transformer vos idées en solutions performantes
             </p>
           </motion.div>
 
@@ -256,8 +256,8 @@ export default function ConseilPage() {
             >
               <div className="relative aspect-[4/3] overflow-hidden rounded-2xl">
                 <img
-                  src="/mode-consulting.jpg"
-                  alt="Equipe conseil en reunion de projet"
+                  src="/homepage-consulting.webp"
+                  alt="Équipe conseil en réunion de projet"
                   className="w-full h-full object-cover"
                 />
               </div>
@@ -280,7 +280,7 @@ export default function ConseilPage() {
               Pourquoi Choisir le Forfait?
             </h2>
             <p className="mt-4 mx-auto max-w-2xl text-lg text-muted-foreground leading-relaxed">
-              Le mode forfait vous offre visibilite et maitrise de votre investissement tout en beneficiant de notre expertise et de notre engagement qualite.
+              Le mode forfait vous offre visibilité et maîtrise de votre investissement tout en bénéficiant de notre expertise et de notre engagement qualité.
             </p>
           </motion.div>
 
@@ -304,7 +304,7 @@ export default function ConseilPage() {
 
       <CtaBanner
         title="Pret a lancer votre projet ?"
-        description="Contactez-nous pour une etude gratuite de votre besoin et decouvrez comment notre approche conseil peut concretiser vos ambitions numeriques."
+        description="Contactez-nous pour une étude gratuite de votre besoin et découvrez comment notre approche conseil peut concrétiser vos ambitions numériques."
         ctaLabel="Contactez-nous"
         ctaHref="/#contact"
       />

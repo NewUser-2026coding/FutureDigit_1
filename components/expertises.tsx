@@ -44,7 +44,7 @@ export default function Expertises() {
             Nos expertises
           </span>
           <h2 className="mt-3 font-serif text-3xl font-bold text-foreground sm:text-4xl lg:text-5xl text-balance">
-            Des competences techniques et methodologiques
+            Des compétences techniques et méthodologiques
           </h2>
           <p className="mt-4 mx-auto max-w-2xl text-lg text-muted-foreground leading-relaxed">
             Frontend, Backend, Embedded, Cloud et SAP pour vos projets.

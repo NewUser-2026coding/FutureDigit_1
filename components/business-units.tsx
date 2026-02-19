@@ -14,7 +14,7 @@ const units = [
       "BNP PARIBAS · BPCE - NATIXIS · SOCIÉTÉ GÉNÉRALE",
       "SCOR · CRÉDIT AGRICOLE · BFORBANK · S-Money",
     ],
-    image: "/bu-finance1.jpg",
+    image: "/bu-finance1.webp",
     href: "/business-units/banque-finance",
   },
   {
@@ -26,7 +26,7 @@ const units = [
       "TECHNIP · TOTAL · SAIPEM · SCHLUMBERGER",
       "FORSEE POWER · EDF · ENGIE · EGIS · FLYING WHALES",
     ],
-    image: "/bu-ingenierie1.jpg",
+    image: "/bu-ingenierie1.webp",
     href: "/business-units/ingenierie",
   },
 ]

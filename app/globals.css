@@ -129,6 +129,11 @@ html {
   scroll-behavior: smooth;
 }
 
+/* Hide empty Next.js portal (avoids visible 0×0 element at bottom of page) */
+nextjs-portal:empty {
+  display: none !important;
+}
+
 @keyframes marquee {
   0% {
     transform: translateX(0);
