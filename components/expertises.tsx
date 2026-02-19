@@ -2,7 +2,7 @@
 
 import Link from "next/link"
 import { motion } from "motion/react"
-import { Code2, Cloud, Database } from "lucide-react"
+import { Code2, Cloud, Database, Server, FolderKanban } from "lucide-react"
 
 const expertises = [
   {
@@ -22,6 +22,18 @@ const expertises = [
     title: "Expertise SAP",
     description: "S/4HANA, FI/CO, Supply Chain (MM/SD/PP), HR & SuccessFactors, Technical & Basis",
     href: "/expertises/sap",
+  },
+  {
+    icon: Server,
+    title: "Infrastructure & DevOps",
+    description: "CI/CD, automatisation, monitoring, containerisation et orchestration pour une infrastructure moderne",
+    href: "/expertises/infrastructure-devops",
+  },
+  {
+    icon: FolderKanban,
+    title: "Gestion de Projet",
+    description: "Méthodologies Agile, Scrum, pilotage et coordination de projets IT complexes",
+    href: "/expertises/gestion-projet",
   },
 ]
 
