@@ -182,7 +182,7 @@ export default function Contact() {
               {
                 icon: Mail,
                 label: "Email",
-                value: "contact@future-digit.com",
+                value: "contact@exemple.com",
               },
             ].map((item) => (
               <div
